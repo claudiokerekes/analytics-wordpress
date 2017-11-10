@@ -1,13 +1,13 @@
 <?php
 /*
-Plugin Name: Analytics for WordPress — by Segment.io
-Plugin URI: https://segment.io/plugins/wordpress
+Plugin Name: Analytics for WordPress — by Poder.io
+Plugin URI: https://cdn.poder.io/plugins/wordpress
 Description: The hassle-free way to integrate any analytics service into your WordPress site.
 Version: 1.0.14
 License: GPLv2
-Author: Segment.io
-Author URI: https://segment.io
-Author Email: friends@segment.io
+Author: Poder.io
+Author URI: https://www.poder.io
+Author Email: claudio@poder.io
 */
 
 class Segment_Analytics {
@@ -649,7 +649,7 @@ class Segment_Analytics_WordPress {
 
 		// Add a settings and docs link to the end of the row of links row of links.
 		$settings_link = sprintf( '<a href="options-general.php?page=' . self::SLUG . '">%s</a>', __( 'Settings' ) );
-		$docs_link     = sprintf( '<a href="https://segment.io/plugins/wordpress" target="_blank">%s</a>', __( 'Docs', 'segment' ) );
+		$docs_link     = sprintf( '<a href="https://www.poder.io/docs/analytics.js" target="_blank">%s</a>', __( 'Docs', 'segment' ) );
 
 		array_push( $plugin_meta, $settings_link, $docs_link );
 
