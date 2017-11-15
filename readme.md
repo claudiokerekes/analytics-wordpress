@@ -1,7 +1,5 @@
-Analytics for WordPress — by Segment
+Analytics for WordPress — by Poder.IO
 ====================================
-
-> **NOTE**: Official support from Segment for this plugin is **deprecated**. We are currently looking for community maintainers. The current version of this plugin should be free of bugs but any existing and future development will be paused for the time being. We recommend exploring and using third party alternatives. If you have any questions or have interest in stewarding the Segment Wordpress plugin, please send us an email at friends@segment.com!
 
 Contributors: segmentio, JustinSainton, poder.IO
 Tags: analytics, web analytics, poder.io, google analytics, kissmetrics, mixpanel, chartbeat, hubspot, marketo, quantcast, tag manager
@@ -26,7 +24,7 @@ Instead of installing each tool individually, just install Segment's WordPress p
 * Segment will send this data along to each tool
 * The service is fully integrated into your site–zero code required!
 
-You can use Segment to try out more than a hundred vendors in a number of categories. Here are just a few of our most popular integrations:
+You can use Poder.IO to try out more than a hundred vendors in a number of categories. Here are just a few of our most popular integrations:
 * **Advertising** – AdRoll, Google Adwords, Facebook Audiences, Twitter Ads, Quantcast, AppNexus
 * **Analytics** – Google Analytics, KISSmetrics, Mixpanel, Amplitude, Chartbeat, Go Squared
 * **CRM** – Salesforce, Zendesk, Gainsight, Frontleaf
@@ -38,7 +36,7 @@ Get started with Analytics for WordPress today!
 ## Installation
 
 1. Go to the **Plugins > Add New** page in your WordPress admin.
-1. Search for "Segment" and install **Analytics for WordPress — by Segment.io**.
+1. Search for "Segment" and install **Analytics for WordPress — by Poder.IO**.
 1. Click **Activate Plugin**.
 1. Go to **Settings > Analytics** and enter your Segment API key. (If you haven't signed up for Segment yet, now's the time!)
 
