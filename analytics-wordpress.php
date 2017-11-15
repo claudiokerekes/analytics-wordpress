@@ -359,7 +359,7 @@ class Segment_Analytics_WordPress {
 					'fields'   => array(
 						array(
 							'name'            => 'api_key',
-							'title'           => __( 'Segment API Write Key', 'segment' ),
+							'title'           => __( 'Poder.IO API Key', 'segment' ),
 							'callback'        => array( 'Segment_Settings', 'api_key_callback' ),
 						)
 					)

@@ -3,8 +3,8 @@ Analytics for WordPress — by Segment
 
 > **NOTE**: Official support from Segment for this plugin is **deprecated**. We are currently looking for community maintainers. The current version of this plugin should be free of bugs but any existing and future development will be paused for the time being. We recommend exploring and using third party alternatives. If you have any questions or have interest in stewarding the Segment Wordpress plugin, please send us an email at friends@segment.com!
 
-Contributors: segmentio, JustinSainton
-Tags: analytics, web analytics, segment.io, google analytics, kissmetrics, mixpanel, chartbeat, hubspot, marketo, quantcast, tag manager
+Contributors: segmentio, JustinSainton, poder.IO
+Tags: analytics, web analytics, poder.io, google analytics, kissmetrics, mixpanel, chartbeat, hubspot, marketo, quantcast, tag manager
 Requires at least: 3.6
 Tested up to: 4.0
 Stable tag: 1.0.14
@@ -48,7 +48,7 @@ That's it! You can now turn on any analytics service with the flick of a switch 
 ## Frequently Asked Questions
 
 - What analytics services does it support? =
-Tons! Google Analytics, Mixpanel, KISSmetrics, Chartbeat, Clicky, Intercom, CrazyEgg, Customer.io, Gauges, GoSquared, HubSpot, Marketo, Olark, Quantcast, Vero, and more... You can check out [the full list](https://segment.io/integrations).
+Tons! Google Analytics, Mixpanel, KISSmetrics, Chartbeat, Clicky, Intercom, CrazyEgg, Customer.io, Gauges, GoSquared, HubSpot, Marketo, Olark, Quantcast, Vero, and more...
 
 - What user information does it record automatically? =
 We automatically identify users that are logged in to your WordPress site, and record their `name`, `email`, `username`, and `website`, so you don't need to write any special code to handle that yourself. It also identifies commenters if it can.
