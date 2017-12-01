@@ -742,9 +742,9 @@ class Segment_Analytics_WordPress {
 				'traits'  => array(
 					'username'  => $user->user_login,
 					'email'     => $user->user_email,
-					'firstName' => $user->user_firstname,
-					'lastName'  => $user->user_lastname,
-					'url'       => $user->user_url
+					'first_name' => $user->user_firstname,
+					'last_name'  => $user->user_lastname,
+					'attributes' => array ( 'url' => $user->user_url)
 				)
 			);
 		}
