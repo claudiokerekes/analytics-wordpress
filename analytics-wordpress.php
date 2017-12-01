@@ -740,7 +740,7 @@ class Segment_Analytics_WordPress {
 			$identify = array(
 				'user_id' => $user->user_email,
 				'traits'  => array(
-					'username'  => $user->user_login,
+					'user_id'  => $user->user_login,
 					'email'     => $user->user_email,
 					'first_name' => $user->user_firstname,
 					'last_name'  => $user->user_lastname,
@@ -756,7 +756,7 @@ class Segment_Analytics_WordPress {
 				'traits'  => array(
 					'email' => $commenter['comment_author_email'],
 					'name'  => $commenter['comment_author'],
-					'attributes' => array('url'   => $commenter['comment_author_url'])
+					'attributes' => array('url' => $commenter['comment_author_url'])
 				)
 			);
 		}
@@ -797,7 +797,7 @@ class Segment_Analytics_WordPress {
 				$track = array(
 					'event'      => __( 'Logged In', 'segment' ),
 					'properties' => array(
-						'username'  => $user->user_login,
+						'user_id'  => $user->user_login,
 						'email'     => $user->user_email,
 						'name'      => $user->display_name,
 						'first_name' => $user->user_firstname,
@@ -950,12 +950,12 @@ class Segment_Analytics_WordPress {
 			$track = array(
 				'event'      => __( 'User Signed Up', 'segment' ),
 				'properties' => array(
-					'username'  => $user->user_login,
+					'user_id'  => $user->user_login,
 					'email'     => $user->user_email,
 					'name'      => $user->display_name,
-					'firstName' => $user->user_firstname,
-					'lastName'  => $user->user_lastname,
-					'url'       => $user->user_url
+					'first_name' => $user->user_firstname,
+					'last_name'  => $user->user_lastname,
+					'attributes'  => array('url' => $user->user_url)
 				),
 				'http_event' => 'signed_up'
 			);
@@ -998,11 +998,11 @@ class Segment_Analytics_WordPress {
 			$identify = array(
 				'user_id' => $user->user_email,
 				'traits'  => array(
-					'username'  => $user->user_login,
+					'user_id'  => $user->user_login,
 					'email'     => $user->user_email,
-					'firstName' => $user->user_firstname,
-					'lastName'  => $user->user_lastname,
-					'url'       => $user->user_url
+					'first_name' => $user->user_firstname,
+					'last_name'  => $user->user_lastname,
+					'attributes' => array ( 'url' => $user->user_url)
 				)
 			);
 		}
