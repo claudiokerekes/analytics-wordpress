@@ -756,7 +756,7 @@ class Segment_Analytics_WordPress {
 				'traits'  => array(
 					'email' => $commenter['comment_author_email'],
 					'name'  => $commenter['comment_author'],
-					'url'   => $commenter['comment_author_url']
+					'attributes' => array('url'   => $commenter['comment_author_url'])
 				)
 			);
 		}
@@ -800,9 +800,9 @@ class Segment_Analytics_WordPress {
 						'username'  => $user->user_login,
 						'email'     => $user->user_email,
 						'name'      => $user->display_name,
-						'firstName' => $user->user_firstname,
-						'lastName'  => $user->user_lastname,
-						'url'       => $user->user_url
+						'first_name' => $user->user_firstname,
+						'last_name'  => $user->user_lastname,
+						'attributes' => array('url' => $user->user_url)
 					),
 					'http_event' => 'logged_in'
 				);
